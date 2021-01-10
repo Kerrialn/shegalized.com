@@ -277,7 +277,8 @@ align-items: center;
 }
 
 .shelf{
-    width:500px;
+    max-width:500px;
+    min-width: 100px;
 }
 
 
