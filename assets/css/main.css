@@ -156,7 +156,7 @@ section .row img {
     background-attachment: fixed;
     width: 100%;
     height: 80vh;
-    background-position:top;
+    background-position:bottom;
 }
 
 .main h3{
@@ -190,6 +190,7 @@ section .row img {
 
 .main h1{
     color:white;
+    text-shadow: 1px 1px #BF6E50;
 }
 .bold{
      font-weight: bold;
