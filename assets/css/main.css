@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0px;
     padding: 0px;
     font-family: "Courier New";
@@ -23,11 +24,11 @@ a:hover {
     color: #906e67;
 }
 
-.home__subtitle{
+.home__subtitle {
     text-align: center;
     opacity: 0.75;
     padding-bottom: 15px;
-    margin-top:30px;
+    margin-top: 30px;
     position: relative;
 }
 
@@ -76,124 +77,129 @@ a:hover {
 }
 
 */
-.about-me-text{
+
+.about-me-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.text-box{
+.text-box {
     background-color: antiquewhite;
-    height:400px;
+    height: 400px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
-    width:300px;
+    width: 300px;
     margin: auto;
 }
 
-.text p{
-    margin-top:50px;
+.text p {
+    margin-top: 50px;
 }
+
+
 /*HEADER*/
 
 header {
- background-color:#FFF4F2;
+    background-color: #FFF4F2;
     margin: 10px;
     padding: 0;
 }
 
-header .row, footer .row {
-  display: flex;
-  align-items: center;
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
 }
 
-
 header nav {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 0.95em;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.95em;
 }
 
 header p {
-  padding: 0 0px;
-  margin: 0 20px;
+    padding: 0 0px;
+    margin: 0 20px;
 }
 
-
-.row nav a p, header .row h5 {
+.row nav a p,
+header .row h5 {
     font-family: "Courier New";
 }
 
 section .row img {
-  margin: 0 0 30px;
-  width: 100%;
+    margin: 0 0 30px;
+    width: 100%;
 }
 
 .col-md-6 {
-  margin: 0 0 30px;
+    margin: 0 0 30px;
 }
+
 
 /*PRODUCT*/
 
 .desc {
-    margin-right:3em;
+    margin-right: 3em;
     padding: 10px;
 }
 
-.desc h5, .bold {
+.desc h5,
+.bold {
     font-weight: bold;
 }
+
 .product-name {
-    margin-top:22px;
+    margin-top: 22px;
 }
+
 
 /*JUMBOTRON AND RELATED TO IT*/
 
-.main{
+.main {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to bottom, rgba(242,203,194, .2), rgba(242,203,194, 0.2)), url(3.JPG);
+    background-image: linear-gradient(to bottom, rgba(242, 203, 194, .2), rgba(242, 203, 194, 0.2)), url(3.JPG);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
     height: 80vh;
-    background-position:bottom;
+    background-position: bottom;
 }
 
-.main h3{
+.main h3 {
     text-shadow: 1px 1px white;
 }
-.blogs{
+
+.blogs {
     display: flex;
     align-items: center;
     background-image: url(blog_background.png);
-    background-position:center;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
     height: 80vh;
 }
 
-
 .jumbotron h2 {
-  font-size: 60px;
-
-  margin-top: 1em;
-  color: #FFF4F2;
-
+    font-size: 60px;
+    margin-top: 1em;
+    color: #FFF4F2;
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
-  color: black;
-
+    margin: 0 0 20px;
+    color: black;
 }
 
-.main h1{
-    color:white;
+.main h1 {
+    color: white;
     text-shadow: 1px 1px #BF6E50;
 }
-.bold{
-     font-weight: bold;
+
+.bold {
+    font-weight: bold;
 }
 
 
@@ -205,47 +211,47 @@ section .row img {
     color: black;
 }
 
-.btn.btn-primary. {
-  border: 0px;
-  color: black;
-  box-shadow: 0 0 0 2px rgba(0,0,0, 0.25);
-  padding:7px 20px;  
+.btn.btn-primary {
+    border: 0px;
+    color: black;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
+    padding: 7px 20px;
 }
 
-.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:root {
-  background-color: transparent;
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:root {
+    background-color: transparent;
     border-color: #906e67!important;
-    color:black!important;    
-
+    color: black!important;
 }
 
 .btn a:active selector {
-  background: rgba(0,0,0, 3);
-  box-shadow: 0 0 0 2px rgba(144, 144, 144, 0.5);
-  top: 2px;
+    background: rgba(0, 0, 0, 3);
+    box-shadow: 0 0 0 2px rgba(144, 144, 144, 0.5);
+    top: 2px;
 }
 
-.btn{
+.btn {
     margin: 2em;
-    margin:0;
+    margin: 0;
 }
 
 .mybutton btn {
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.more-button button{
-    width:150px;
-    height:50px;
+.more-button button {
+    width: 150px;
+    height: 50px;
     background-color: transparent;
     border: 1px solid #d8c2be;
     font-size: 20px;
     color: #d8c2be;
-    margin-top:30px;
+    margin-top: 30px;
 }
-
 
 .more-button button:hover {
     border: 1px solid #d8c2be;
@@ -255,23 +261,27 @@ section .row img {
 /*CAROUSEL*/
 
 .stay {
-    position:sticky; 
+    position: sticky;
     top: 0;
 }
 
 #carouselExampleIndicators .carousel-indicators li {
-  background-color: brown;
-  background-color: black;
+    background-color: brown;
+    background-color: black;
 }
 
 #carouselExampleIndicators .carousel-indicators .active {
-  background-color:#8b6760;
+    background-color: #8b6760;
 }
 
 .carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
+.carousel-control-prev
+/*, .carousel-indicators */
+
+{
     filter: invert(30%);
 }
+
 
 /*PRODUCT*/
 
@@ -279,56 +289,50 @@ section .row img {
     font-weight: bold;
 }
 
-.product-buttons .container .row  {
-align-items: center;
-
+.product-buttons .container .row {
+    align-items: center;
 }
 
 .product-buttons {
     margin: 3em 0;
 }
 
+
 /*CARDS*/
 
 .for-cards {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.shelf{
-    width:50%;
+.shelf {
+    width: 50%;
 }
-
 
 .cards-list {
-  z-index: 0;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 3em 3em;
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3em 3em;
 }
-.card{
+
+.card {
     margin: 0.5em;
     width: 18rem;
-    height:25rem;
+    height: 25rem;
     font-family: "Courier New";
     color: black;
     background-color: #FFF4F2;
-    border:0.1px solid #edd8d4;   
-}
-
-
-.card img{
-    
+    border: 0.1px solid #edd8d4;
 }
 
 .card:hover {
-  transform: scale(0.95, 0.95);
+    transform: scale(0.95, 0.95);
     border: 1px solid #906e67;
-    
-/* box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.001),
+    /* box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.001),
       -5px -5px 30px 15px rgba(0,0,0,0.1);
  z-index:500;*/
 }
@@ -337,65 +341,64 @@ align-items: center;
 /*FOOTER*/
 
 .footer-basic {
-  padding:40px 0;
-  background-color:white;;
-  color:#4b4c4d;
+    padding: 40px 0;
+    background-color: white;
+    ;
+    color: #4b4c4d;
     border-top: 1px solid white;
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .footer-basic ul {
-  padding:0;
-  list-style:none;
-  text-align:center;
-  font-size:14px;
-  line-height:1.6;
-  margin-bottom:0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 0;
 }
 
 .footer-basic li {
-  padding:0 10px;
+    padding: 0 10px;
 }
 
 .footer-basic ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
 }
 
 .footer-basic ul a:hover {
-  opacity:1;
+    opacity: 1;
 }
 
 .footer-basic .social {
-  text-align:center;
-  padding-bottom:25px;
+    text-align: center;
+    padding-bottom: 25px;
 }
 
-.footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
 }
 
-.footer-basic .social > a:hover {
-  opacity:0.9;
+.footer-basic .social>a:hover {
+    opacity: 0.9;
 }
 
 .footer-basic .copyright {
-  margin-top:15px;
-  text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
 }
-
-
